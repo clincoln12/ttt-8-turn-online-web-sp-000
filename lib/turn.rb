@@ -48,7 +48,14 @@ def turn(board)
   valid_move_made = false
   
   until valid_move_made do
+    puts "Please whatever"
     
+    move_index = input_to_index(gets)
+    
+    if valid_move?(board, move_index)
+      
+      valid_move_made = true
+    end
   end
 end
 
