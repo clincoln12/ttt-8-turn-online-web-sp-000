@@ -45,7 +45,11 @@ end
 
 
 def turn(board)
+  valid_move_made = false
   
+  until valid_move_made do
+    
+  end
 end
 
 
