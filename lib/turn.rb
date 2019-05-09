@@ -48,7 +48,7 @@ def turn(board)
   valid_move_made = false
   
   until valid_move_made do
-    puts "Please whatever"
+    puts "Please enter 1-9:"
     
     move_index = input_to_index(gets)
     
