@@ -49,8 +49,7 @@ def turn(board)
   input = gets
   value = input
   input_to_index(value)
-  if valid_move?(board, index)
-  end
+  self.valid_move?(board, index)
 end
 
 
