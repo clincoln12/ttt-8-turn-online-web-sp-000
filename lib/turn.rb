@@ -53,7 +53,7 @@ def turn(board)
     move_index = input_to_index(gets)
     
     if valid_move?(board, move_index)
-      
+      display_board(move(board, move_index))
       valid_move_made = true
     end
   end
